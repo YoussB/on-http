@@ -12,6 +12,7 @@ var self = module.exports = {
     onHttpContextFactory: onHttpContextFactory
 };
 
+
 function onHttpContextFactory(di, directory) {
     di = di || _di;
 
